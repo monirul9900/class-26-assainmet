@@ -1,0 +1,137 @@
+*{
+    font-family: rubik,sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.fix-content h5{
+color: #aebcfd;
+font-weight: 400;
+}
+.fix-content h2{
+    font-weight: 400;
+    position: relative;
+}
+  .fix-content h2::after{
+   content: "";
+   position: absolute;
+   bottom:  -13px;
+   left: 0;
+   width: 45px;
+   height: 2px;
+   background-color: #6e84e9;
+
+}
+.company-logo .img-div{
+    width: 200px;
+   height: 100px;
+}
+.company-logo img{
+    border: 1px solid #eceaea;
+   width: 100%;
+   height: 100%;
+}
+    
+
+
+
+
+/* blog section */
+.bolg-content h2{
+    position: relative;
+    
+    
+}
+.bolg-content h5{
+   
+color: #cad2f8;
+    
+}
+
+.bolg-content h2::after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 45%;
+    width: 45px;
+    height: 2px;
+    background-color:#6e84e9;
+}
+
+/* BLOG CONTENT CARD SECTION */
+.card{
+    position: relative;
+}
+.subcontent h6{
+    color: #fff;
+    margin-top: 7px;
+}
+.subcontent img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-right: 18px;
+}
+.subcontent {
+    width: 193px;
+    height: 50px;
+    position: absolute;
+    bottom: 222px;
+    right: 19px;
+    background-color: #3763eb;
+    border-radius: 40px;
+}
+
+/* footer section */
+
+.footer-top{
+    background-color: #081828;
+    padding: 100px 0;
+    
+}
+
+
+.footer-content img{
+    width: 200px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+
+
+.footer-content-text h3{
+    color: white;
+    border-left: 2px solid #3763eb;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+
+}
+.footer-content-text a{
+    color: white;
+    display: inline-block;
+    padding: 10px 0px;
+    text-decoration: none;
+    
+
+
+}
+footer{
+    background-color: #081828;
+    
+}
+.footer-text{
+    color: #ffffff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 40px;
+}
